@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "6fbb2f4e-6b8f-4cde-81c4-331db48b4683",
+		"name": "nodeJsDocumentation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "remove",
+						"value": "salary",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/employee?project=dev",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"employee"
+					],
+					"query": [
+						{
+							"key": "project",
+							"value": "dev"
+						}
+					]
+				},
+				"description": "postman collection"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/employee?project=dev",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"employee"
+					],
+					"query": [
+						{
+							"key": "project",
+							"value": "dev"
+						}
+					]
+				},
+				"description": "project"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/employee?remove=salary",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/employee?remove=salary",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"employee"
+					],
+					"query": [
+						{
+							"key": "remove",
+							"value": "salary"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
