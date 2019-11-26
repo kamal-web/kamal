@@ -1,0 +1,8 @@
+[
+    {"id":1,"name":"emp1","project":"dev","exp":2, "salary":20000,"bloodgroup":"o+"},
+    {"id":2,"name":"emp2","project":"dev","exp":3, "salary":30000,"bloodgroup":"o+"},
+    {"id":3,"name":"emp3","project":"qa","exp":2, "salary":20000,"bloodgroup":"o+"},
+    {"id":4,"name":"emp4","project":"qa","exp":4, "salary":40000,"bloodgroup":"o+"},
+    {"id":5,"name":"emp5","project":"dev","exp":3, "salary":30000,"bloodgroup":"o+"}
+    
+]
